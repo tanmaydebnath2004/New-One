@@ -1,0 +1,43 @@
+
+body{
+    background: rgb(206, 224, 240);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slideshow{
+    width: 400px;
+    text-align: center;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+  transition: opacity 0.5s ease;
+}
+.caption{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.controls{
+    margin-top: 10px;
+
+}
+button{
+
+background: greenyellow;
+padding: 10px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+margin: 4px;
+}
+ p{
+    font-weight: bold;
+ }
+ input{
+    width: 150px;
+ }

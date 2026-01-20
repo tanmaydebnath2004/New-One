@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slideshow">
+        <img id="slide" src="" alt="Slideshow images" loading="eager">
+        <div class="caption" id="caption"></div>
+        <div class="controls">
+            <button onclick="prev()" id="prev">Prev</button>
+            <button onclick="togglePlay()" id="playBtn">Pause</button>
+            <button onclick="next()" id="next">Next</button>
+            <button onclick="toggleFullscreen()" id="tfs">Full Screen</button>
+
+        </div>
+        <div class="slider">
+        <p>Speed:  <input type="range" min="1" max="30" value="3" id="slider">
+            <span id="speedValue">3</span></p>
+        
+           
+      </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
