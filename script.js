@@ -4,7 +4,6 @@ const images = [
   { src: "https://picsum.photos/id/1020/600/400", caption: "Desert Sand" },
   { src: "https://picsum.photos/id/1024/600/400", caption: "Cute Dog" }
 ];
-console.log("Script loaded");
 
 let index = 0;
 let isPlaying = true;
@@ -14,7 +13,7 @@ let slideshowInterval;
 const slide = document.getElementById("slide");
 const caption = document.getElementById("caption");
 const playBtn = document.getElementById("playBtn");
-const speedSlider = document.getElementById("speedSlider");
+const speedSlider = document.getElementById("slider");
 const speedValue = document.getElementById("speedValue");
 
 function showSlide() {
@@ -25,7 +24,6 @@ function showSlide() {
     slide.style.opacity = 1;
   }, 200);
 }
-console.log("Script loaded");
 
 function next() {
   index = (index + 1) % images.length;
